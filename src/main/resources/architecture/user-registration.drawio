@@ -1,0 +1,74 @@
+<mxfile host="app.diagrams.net" modified="2024-06-03T04:29:26.860Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 Edg/125.0.0.0" etag="12IMLdZg32I6jz8MOgLG" version="24.4.4" type="device">
+  <diagram name="Page-1" id="jp38XCizxemEOLdRRnnj">
+    <mxGraphModel dx="1379" dy="797" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ehxasl9lvjdKmY1Ci4UQ-15" value="NutonBackend" style="swimlane;whiteSpace=wrap;html=1;textOpacity=0;" vertex="1" parent="1">
+          <mxGeometry x="620" y="460" width="660" height="430" as="geometry" />
+        </mxCell>
+        <mxCell id="ehxasl9lvjdKmY1Ci4UQ-16" value="RegistrationController" style="whiteSpace=wrap;html=1;" vertex="1" parent="ehxasl9lvjdKmY1Ci4UQ-15">
+          <mxGeometry x="50" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ehxasl9lvjdKmY1Ci4UQ-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="ehxasl9lvjdKmY1Ci4UQ-15" source="ehxasl9lvjdKmY1Ci4UQ-22" target="ehxasl9lvjdKmY1Ci4UQ-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ehxasl9lvjdKmY1Ci4UQ-24" value="User&lt;div&gt;Repository&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="ehxasl9lvjdKmY1Ci4UQ-15">
+          <mxGeometry x="460" y="180" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ehxasl9lvjdKmY1Ci4UQ-31" value="RegistrationService" style="rounded=0;whiteSpace=wrap;html=1;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;" vertex="1" parent="ehxasl9lvjdKmY1Ci4UQ-15">
+          <mxGeometry x="210" y="60" width="180" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="ehxasl9lvjdKmY1Ci4UQ-19" value="emailExist" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="ehxasl9lvjdKmY1Ci4UQ-15">
+          <mxGeometry x="260" y="70" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ehxasl9lvjdKmY1Ci4UQ-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="ehxasl9lvjdKmY1Ci4UQ-15" source="ehxasl9lvjdKmY1Ci4UQ-22" target="ehxasl9lvjdKmY1Ci4UQ-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ehxasl9lvjdKmY1Ci4UQ-22" value="saveUser" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="ehxasl9lvjdKmY1Ci4UQ-15">
+          <mxGeometry x="240" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ehxasl9lvjdKmY1Ci4UQ-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="ehxasl9lvjdKmY1Ci4UQ-15" source="ehxasl9lvjdKmY1Ci4UQ-19" target="ehxasl9lvjdKmY1Ci4UQ-22">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="300" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ehxasl9lvjdKmY1Ci4UQ-25" value="Publish UserRegistered Event" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="ehxasl9lvjdKmY1Ci4UQ-15">
+          <mxGeometry x="240" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ehxasl9lvjdKmY1Ci4UQ-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="ehxasl9lvjdKmY1Ci4UQ-15" source="ehxasl9lvjdKmY1Ci4UQ-16" target="ehxasl9lvjdKmY1Ci4UQ-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ehxasl9lvjdKmY1Ci4UQ-32" value="false" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="ehxasl9lvjdKmY1Ci4UQ-15">
+          <mxGeometry x="290" y="150" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ehxasl9lvjdKmY1Ci4UQ-33" value="User Repostory" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="ehxasl9lvjdKmY1Ci4UQ-15">
+          <mxGeometry x="450" y="60" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ehxasl9lvjdKmY1Ci4UQ-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="ehxasl9lvjdKmY1Ci4UQ-15" source="ehxasl9lvjdKmY1Ci4UQ-19">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="450" y="110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ehxasl9lvjdKmY1Ci4UQ-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ehxasl9lvjdKmY1Ci4UQ-12" target="ehxasl9lvjdKmY1Ci4UQ-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ehxasl9lvjdKmY1Ci4UQ-12" value="User" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="540" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ehxasl9lvjdKmY1Ci4UQ-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ehxasl9lvjdKmY1Ci4UQ-13" target="ehxasl9lvjdKmY1Ci4UQ-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ehxasl9lvjdKmY1Ci4UQ-13" value="Completes Registration form" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="540" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ehxasl9lvjdKmY1Ci4UQ-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ehxasl9lvjdKmY1Ci4UQ-14" target="ehxasl9lvjdKmY1Ci4UQ-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ehxasl9lvjdKmY1Ci4UQ-14" value="Submits" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="540" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
